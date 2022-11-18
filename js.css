@@ -1,0 +1,18 @@
+body {
+    background-color: #066734;
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: gold;
+}
+
+button {
+    background-color: goldenrod;
+    width: 150px;
+    padding: 5px 0px;
+    border: none;
+    border-radius: 2px;
+}
