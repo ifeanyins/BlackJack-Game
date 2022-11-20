@@ -8,7 +8,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://ifeanyins.github.io/BlackJack-Game/)
+<!-- [Live Demo Link](https://ifeanyins.github.io/BlackJack-Game/) -->
 
 ## ScreenShot
 <!-- 
@@ -34,7 +34,7 @@ First, copy the code to the repository
 ### Usage
 
 ```bash
-git clone `https://ifeanyins.github.io/BlackJack-Game/`
+# git clone `https://ifeanyins.github.io/BlackJack-Game/`
 ```
 
 -- for installing dev dependecies.
@@ -77,7 +77,7 @@ This project is [MIT](./LICENSE) licensed.
 
 ## Live Demo
 
-[Live Demo Link](https://ifeanyins.github.io/BlackJack-Game/)
+<!-- [Live Demo Link](https://ifeanyins.github.io/BlackJack-Game/) -->
 
 ## Getting Started
 
