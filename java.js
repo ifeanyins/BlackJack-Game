@@ -37,7 +37,4 @@ let newCard =()=> {
     renderGame()
 }
 
-
-
-
-
+document.title = 'Black Jack Game'
