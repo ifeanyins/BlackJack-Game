@@ -33,8 +33,10 @@ cardEl.textContent = 'cards: ' + cards[0] + ' ' + cards[1] ;
 
 let newCard =()=> {
     let card = 7;
-    sum += card;
-    renderGame()
+    sum += card;  
+    cards.push(card)
+    renderGame();
 }
 
 document.title = 'Black Jack Game'
+
