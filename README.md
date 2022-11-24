@@ -1,4 +1,4 @@
-# BlackJack-Game
+<!-- # BlackJack-Game
 
 > A Website built with HTML, CSS3 and Vanilla JS.
 
@@ -12,7 +12,7 @@
 
 ## ScreenShot
 <!-- 
-![Screenshot (2)](https://user-images.githubusercontent.com/110744261/192661492-0f30cf56-1960-4992-980f-189e6a660337.png) -->
+![Screenshot (2)](https://user-images.githubusercontent.com/110744261/192661492-0f30cf56-1960-4992-980f-189e6a660337.png) 
 
 ## Getting Started
 
@@ -77,7 +77,7 @@ This project is [MIT](./LICENSE) licensed.
 
 ## Live Demo
 
-<!-- [Live Demo Link](https://ifeanyins.github.io/BlackJack-Game/) -->
+<!-- [Live Demo Link](https://ifeanyins.github.io/BlackJack-Game/) --
 
 ## Getting Started
 
@@ -125,4 +125,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE) licensed. -->
