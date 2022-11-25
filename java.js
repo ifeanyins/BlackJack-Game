@@ -41,5 +41,5 @@ let newCard =()=> {
 document.title = 'Black Jack Game';
 
 for (let i = 10; i < 110; i += 10) {
-    console.log(i)
+    // console.log(i)
 }
