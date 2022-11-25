@@ -16,6 +16,9 @@ let startGame = ()=> {
 }
 
 let renderGame =()=> {
+    for (let i = 0; i < cards.length; i++) {
+        cardEl.textContent += cards[i] + ' '
+    }
     sumEl.textContent = 'Sum: ' + sum
     if (sum <= 20) {
     message = 'Do you want to draw a new card?'
@@ -28,7 +31,6 @@ let renderGame =()=> {
 
 }
 messageEl.textContent = message;
-cardEl.textContent = 'cards: ' + cards[0] + ' ' + cards[1] ;
 }
 
 let newCard =()=> {
@@ -40,6 +42,3 @@ let newCard =()=> {
 
 document.title = 'Black Jack Game';
 
-for (let i = 10; i < 110; i += 10) {
-    // console.log(i)
-}
