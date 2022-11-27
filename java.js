@@ -42,7 +42,7 @@ let newCard =()=> {
     sum += card;  
     cards.push(card)
     renderGame();
-
+}
 
 document.title = 'Black Jack Game';
 
