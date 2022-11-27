@@ -12,7 +12,7 @@ let sumEl = document.querySelector('#sum-el')
 let cardEl = document.querySelector('#card-el')
 
 function getRandomCard (){
-    return 5
+    return Math.floor(Math.random() * 12) + 1
 }
 
 let startGame = ()=> {
@@ -45,3 +45,9 @@ let newCard =()=> {
 }
 
 document.title = 'Black Jack Game';
+
+
+
+
+
+
