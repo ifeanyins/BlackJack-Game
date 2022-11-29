@@ -29,7 +29,7 @@ let startGame = ()=>{
     renderGame();
 }
 
-let renderGame =()=> {
+function renderGame() {
     for (let i = 0; i < cards.length; i++) {
         cardEl.textContent += cards[i] + ' '
     }
@@ -47,7 +47,7 @@ let renderGame =()=> {
 messageEl.textContent = message;
 }
 
-let newCard =()=> {
+function newCard () {
     let card = getRandomCard ();
     sum += card;  
     cards.push(card)
@@ -59,5 +59,27 @@ document.title = 'Black Jack Game';
 
 
 
+let hasSolvedChallange = false
+let hasHintsLeft = false
+
+if (hasSolvedChallange === false && hasHintsLeft === false) {
+    showSolution ()
+}
 
 
+function showSolution () {
+    console.log("showing the solution.....")
+}
+
+
+let likesDocum = true
+let likeStartups = false
+
+
+if (likesDocum === true || likeStartups === false) {
+
+}
+
+function recommendMovie() {
+    console.log('hey')
+}
