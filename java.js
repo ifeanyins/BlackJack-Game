@@ -7,6 +7,16 @@ let messageEl = document.getElementById("message-el")
 let sumEl = document.querySelector('#sum-el')
 let cardEl = document.querySelector('#card-el')
 
+let player = {
+
+    name  :"per",
+    chips : 145
+}
+
+
+let playerEl = document.getElementById('player-el')
+playerEl.textContent = player.name + ': $' + player.chips
+
 function getRandomCard (){
     let randomNumber = Math.floor(Math.random() * 12) + 1
     if (randomNumber > 10 ) {
@@ -48,38 +58,15 @@ messageEl.textContent = message;
 }
 
 function newCard () {
-    let card = getRandomCard ();
-    sum += card;  
-    cards.push(card)
-    renderGame();
+    if (isAlive === true && hasBlackJack === false) {
+        let card = getRandomCard ();
+        sum += card;  
+        cards.push(card)
+        renderGame();
+    }
 }
 
 document.title = 'Black Jack Game';
 
 
 
-
-let hasSolvedChallange = false
-let hasHintsLeft = false
-
-if (hasSolvedChallange === false && hasHintsLeft === false) {
-    showSolution ()
-}
-
-
-function showSolution () {
-    console.log("showing the solution.....")
-}
-
-
-let likesDocum = true
-let likeStartups = false
-
-
-if (likesDocum === true || likeStartups === false) {
-
-}
-
-function recommendMovie() {
-    console.log('hey')
-}
