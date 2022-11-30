@@ -8,7 +8,6 @@ let sumEl = document.querySelector('#sum-el')
 let cardEl = document.querySelector('#card-el')
 
 let player = {
-
     name  :"per",
     chips : 145
 }
@@ -67,6 +66,5 @@ function newCard () {
 }
 
 document.title = 'Black Jack Game';
-
 
 
